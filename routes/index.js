@@ -6,6 +6,7 @@ const changeCase = require('change-case');
 // router.get('/uploads/:recipeId/:imageId', indexCtrl.imageGet)
 // router.get('/uploads/users/:hash/avatar.jpg', indexCtrl.avatarGet)
 module.exports = (app) => {
+    debugger
     Object.keys(routes).forEach((routeName) => {
         const router = express.Router();
 
